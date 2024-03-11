@@ -21,7 +21,6 @@ require("lazy").setup({
   'wbthomason/packer.nvim',
   'navarasu/onedark.nvim',
   "lukas-reineke/indent-blankline.nvim",
-  "nvim-treesitter/nvim-treesitter",
   "nvim-lua/plenary.nvim",
   "NvChad/nvim-colorizer.lua",
   "lewis6991/gitsigns.nvim",
@@ -41,6 +40,10 @@ require("lazy").setup({
     "ThePrimeagen/harpoon",
     branch = "harpoon2",
     dependencies = { {"nvim-lua/plenary.nvim"} }
+  },
+  {
+    'neoclide/coc.nvim', 
+    branch =  'release'
   }
 });
 

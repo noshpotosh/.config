@@ -31,6 +31,7 @@ vim.opt.shiftround = true
 
 -- This breaks gitsigns, come back to this later
 --vim.opt.statuscolumn = '%=%{v:relnum?v:relnum."    ":v:lnum."      "}'
+vim.opt.signcolumn = "yes"
 
 vim.opt.number = true
 vim.opt.relativenumber = true
